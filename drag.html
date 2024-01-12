@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Instructions for the user -->
+    <h2>Arrange the elements related to human skull anatomy by dragging the corresponding answers from the left side into the designated boxes on the right. Match each element to its appropriate label on the right side by dragging and dropping.</h2> <br>
+
+    <!-- Container for draggable elements, skull image, and drop zones -->
+    <div class="cols">
+        <!-- Draggable elements -->
+        <div class="dragCon">
+            <div class="box" draggable="true" id="box8">Mandible</div>
+            <div class="box" draggable="true" id="box2">Sphenoid Bone</div>
+            <div class="box" draggable="true" id="box3">Lacrimal Bone</div>
+            <div class="box" draggable="true" id="box9">Parietal Bone</div>
+            <div class="box" draggable="true" id="box1">Frontal Bone</div>
+            <div class="box" draggable="true" id="box6">Maxilla</div>
+            <div class="box" draggable="true" id="box11">Occipital Bone</div>
+            <div class="box" draggable="true" id="box14">Styloid Process</div>
+            <div class="box" draggable="true" id="box4">Nasal Bone</div>
+            <div class="box" draggable="true" id="box12">External Acoustic Meatus</div>
+            <div class="box" draggable="true" id="box5">Zygomatic Bone</div>
+            <div class="box" draggable="true" id="box10">Temporal Bone</div>
+            <div class="box" draggable="true" id="box7">Teeth</div>
+            <div class="box" draggable="true" id="box13">Mastoid</div>
+        </div>
+
+        <!-- Skull image -->
+        <div class="skull"></div>
+
+        <!-- Drop zones for matching draggable elements -->
+        <div class="dropCon">
+            <div class="drop" data-draggable-id="box1">1</div>
+            <div class="drop" data-draggable-id="box2">2</div>
+            <div class="drop" data-draggable-id="box3">3</div>
+            <div class="drop" data-draggable-id="box4">4</div>
+            <div class="drop" data-draggable-id="box5">5</div>
+            <div class="drop" data-draggable-id="box6">6</div>
+            <div class="drop" data-draggable-id="box7">7</div>
+            <div class="drop" data-draggable-id="box8">8</div>
+            <div class="drop" data-draggable-id="box9">9</div>
+            <div class="drop" data-draggable-id="box10">10</div>
+            <div class="drop" data-draggable-id="box11">11</div>
+            <div class="drop" data-draggable-id="box12">12</div>
+            <div class="drop" data-draggable-id="box13">13</div>
+            <div class="drop" data-draggable-id="box14">14</div>
+        </div>
+    </div>
+
+    <!-- Display remarks and scores -->
+    <div id="remarks"></div><br>
+    <div id="scores"></div>
+
+    <!-- Include JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

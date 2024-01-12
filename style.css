@@ -1,0 +1,67 @@
+/* Global styling */
+body {
+    margin: auto;
+}
+
+/* Container for draggable elements, skull image, and drop zones */
+.cols {
+    display: flex;
+}
+
+/* Styling for the draggable elements container */
+.dragCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+/* Styling for the drop zones container */
+.dropCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+/* Styling for individual draggable elements */
+.box {
+    background-color: #aaffb5;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Styling for drop zones */
+.drop {
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the skull image */
+.skull {
+    background-image: url('skull.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+}
+
+/* Styling for remarks and scores */
+#remarks #scores {
+    width: 100%;
+    font-size: 76px;
+}
